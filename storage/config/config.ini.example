@@ -1,0 +1,40 @@
+[app]
+version = 1.0.0
+first_run = True
+
+[note_generator]
+provider = zhipu
+model = glm-4-flash
+temperature = 0.7
+max_tokens = 4096
+
+[ppt_generator]
+provider = kimi
+auto_open_browser = True
+auto_copy_prompt = True
+
+[mindmap_generator]
+provider = zhipu
+model = glm-4
+temperature = 0.7
+max_tokens = 4096
+
+[rag_builder]
+provider = zhipu
+model = glm-4-flash
+temperature = 0.7
+max_tokens = 4096
+
+[embeddings]
+provider = zhipu
+model = glm-4-flash
+temperature = 0.7
+max_tokens = 4096
+
+[ocr]
+provider = local
+
+[paths]
+uploads = storage/uploads
+outputs = storage/outputs
+config = storage/config
