@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import QApplication
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 from ui.main_window import MainWindow
-from ui.apple_style import apply_apple_style
+from ui.liquid_glass_style import LiquidGlassStyle
 
 
 def main():
@@ -15,8 +15,8 @@ def main():
     app.setApplicationName("学术论文智能解析器")
     app.setOrganizationName("PaperParser")
     
-    # 应用苹果风格样式
-    apply_apple_style(app)
+    # 应用 Liquid Glass 玻璃质感样式
+    LiquidGlassStyle.apply_to_app(app)
     
     window = MainWindow()
     window.show()
