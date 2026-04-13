@@ -4,7 +4,7 @@
 
 ## ✨ 界面特色
 
-### 🎨 Gemini 风格 Liquid Glass UI
+### 🎨 渐变风格 Liquid Glass UI
 
 - **蓝紫渐变色系**: 采用 Google Gemini 品牌色彩
   - 明亮蓝 `#4796E3`
